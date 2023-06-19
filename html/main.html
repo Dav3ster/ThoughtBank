@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thought Bank</title>
+
+	<link rel="stylesheet" href="../styles/main.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>Thought Bank</h1>
+		<form id="new-thought-form">
+			<input 
+				type="text" 
+				name="new-thought-input" 
+				id="new-thought-input" 
+				placeholder="What's on your mind?" />
+			<input 
+				type="submit"
+				id="new-thought-submit" 
+				value="Deposit thought" />
+		</form>
+	</header>
+	<main>
+		<section class="thought-list">
+			<h2>My thoughts</h2>
+			<div id="thoughts"></div>
+		</section>
+	</main>
+
+	<script src="../javascript/main.js"></script>
+</body>
+</html>
