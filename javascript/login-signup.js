@@ -33,14 +33,16 @@ document.addEventListener("DOMContentLoaded", () => {
         loginForm.classList.remove("form--hidden");
         createAccountForm.classList.add("form--hidden");
     });
-    // need to finish lgin validation
-    loginForm.addEventListener("submit", e => {
-        e.preventDefault();
 
-        // Perform login Validation
+    // // need to finish lgin validation
+    // loginForm.addEventListener("submit", e => {
+    //     e.preventDefault();
 
-        setFormMessage(loginForm, "error", "Invalid username/password combination");
-    });
+    //     // Perform login Validation
+
+    //     setFormMessage(loginForm, "error", "Invalid username/password combination");
+    // });
+
     // valiadation for sign up form
     document.querySelectorAll(".form__input").forEach(inputElement => {
         inputElement.addEventListener("blur", e => {

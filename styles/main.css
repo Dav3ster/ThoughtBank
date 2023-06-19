@@ -24,6 +24,10 @@ body {
 }
 
 header {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 	padding: 2rem 1rem;
 	max-width: 800px;
 	width: 100%;
@@ -35,6 +39,17 @@ header h1{
 	font-weight: 300;
 	color: var(--white);
 	margin-bottom: 1rem;
+}
+
+#signout{
+    color:white;
+    font-size: 1.5rem;
+	font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 #new-thought-form {
@@ -163,4 +178,9 @@ h2 {
 
 .thought .actions .delete {
 	color: crimson;
+}
+
+footer{
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
 }
