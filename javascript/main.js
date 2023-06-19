@@ -3,6 +3,7 @@ window.addEventListener('load', () => {
 	const input = document.querySelector("#new-thought-input");
 	const list_el = document.querySelector("#thoughts");
 
+	// submission and dynamically rendered logic
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
 
